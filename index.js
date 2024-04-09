@@ -12,6 +12,10 @@ app.get("/yt", (req, res) => {
     res.send("<h1>Youtube hai ye</h1>");
 });
 
+app.get("/idk", (req, res) => {
+    res.send("I don't know what am I doing rn");
+});
+
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port`);
 });
